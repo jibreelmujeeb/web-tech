@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar div {
+    cursor: pointer;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.nav li {
+    padding: 15px;
+    cursor: pointer;
+    font-style: italic;
+    transition: 2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+.nav li:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.herosection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+}
+.herosection p{
+    color: red;
+}
+.wel{
+    color: green;
+}
+.pro{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+.firstDiv{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(246, 250, 250);
+    padding-top: 40px;
+    
+}
+.firstDiv img{
+    margin: 25px;
+}
+
+.aboutsection{
+    background-color:whitesmoke;
+    padding: 40px 20px;
+}
+
+.aboutus{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutus h1{
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.aboutus h4{
+    color: red;
+    padding-bottom: 10px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.aboutsection p{
+    padding: 10px 80px;
+}
+
+.mission h1{
+    text-align: center;
+    color:darkgreen ;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 30px;
+}
+
+.mission p{
+    padding: 10px 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ourstory h1{
+    text-align: center;
+    color:darkgreen ;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 30px;
+}
+.ourstory p{
+padding: 10px 60px;
+font-style: italic;
+}
+.corevalues h1{
+    text-align: center;
+    color:darkgreen ;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 30px;
+}
+.corevalues ul{
+   padding-left: 60px;
+   line-height: 30px;
+}
+.corevalues ul span{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.meettheteam{
+    padding: 0px 50px;
+}
+.meettheteam h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.meettheteam p{
+    padding: 10px 60px;
+font-style: italic;
+padding-bottom: 20px;
+line-height: 20px;
+}
+.meettheteam ul span{
+    color: rgb(179, 95, 95);
+    font-size: 15px;
+    font-weight: 900;
+}
+.ourserv h1{
+    text-align: center;
+    color:darkgreen ;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 30px;
+}
+.ourserv p{
+    text-align: center;
+    color: rgb(179, 95, 95);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.ourserv ul{
+    text-align: center;
+}
+.ourserv ul span{
+    color:rgb(179, 95, 95);
+    font-weight: bold;
+    
+}
+.looking h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.looking p{
+    text-align: center;
+    line-height: 20px;
+}
+.touch h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.touch p{
+    text-align: center;
+    color: rgb(179, 95, 95);
+}
+.touch ul{
+    color:green;
+    margin-bottom: 50px;
+}
+.lastpara{
+    float: right;
+}
+.partner{
+    /* margin-left: 40px !important; */
+   padding-top: 30px;
+    
+}
+.secondParner{
+    /* margin-left: 190px; */
+    padding: 20px 150px 20px 150px;
+    
+}
+.google{
+    width: 150px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 490px) {
+    .navbar div {
+        font-size: 10px;
+    }
+
+    .navbar {
+        width: 570px;
+    }
+
+    .img img {
+        width: 250px;
+    }
+
+    .herosection  {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .herosection .wel {
+        width: 300px;
+    }
+    .firstDiv {
+        width: 570px;
+        height: 800px;
+        
+    }
+    .aboutsection{
+        /* display: none; */
+        width: 570px !important;
+    }
+    .aboutus{
+        margin-top: 100px;
+    }
+    .lastimage{
+        margin-top: 10px !important;
+        display: none;
+    }
+    .google{
+        margin-left: -15px;
+        width: 100px;
+    }
+    .part{
+        margin-left: 230px !important;
+    }
+.foot{
+    width: 500px;
+}
+}
